@@ -1,15 +1,11 @@
-/*
- * @lc app=leetcode.cn id=14 lang=c
- *
- * [14] æœ€é•¿å…¬å…±å‰ç¼€
- */
-
-// @lc code=start
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 char * longestCommonPrefix(char ** strs, int strsSize)
 {
     int i;  // counter
-    for (i = 1; i < strsSize; i++)
+    for (i = 1; i < strsSize; ++i)
     {
         if (strs[0][0] != strs[i][0])
         {
@@ -17,9 +13,9 @@ char * longestCommonPrefix(char ** strs, int strsSize)
         }
     }
 
-    int minLength = strlen(strs[0]);// å‡å®šç¬¬ä¸€ä¸ªå­—ç¬¦ä¸²é•¿åº¦æœ€çŸ­
+    int minLength = strlen(strs[0]);// ¼Ù¶¨µÚÒ»¸ö×Ö·û´®³¤¶È×î¶Ì
 
-    for (i = 1; i < strsSize; i++)// å¯»æ‰¾æœ€çŸ­å­—ç¬¦ä¸²é•¿åº¦
+    for (i = 1; i < strsSize; ++i)// Ñ°ÕÒ×î¶Ì×Ö·û´®³¤¶È
     {
         if (strlen(strs[i]) < minLength)
         {
@@ -30,14 +26,15 @@ char * longestCommonPrefix(char ** strs, int strsSize)
     char *ans = (char*)malloc(minLength);
     int j;// counter
     int flag = 1;
-    for (i = 0; i < minLength; i++)
+    for (i = 0; i < minLength; ++i)
     {
         char temp = strs[0][i];
-        for (j = 1; j < strsSize; j++)
+        for (j = 1; j < strsSize; ++j)
         {
             if (strs[j][i] != temp)
             {
                 flag = 0;
+                break;
             }
         }
         if (flag)
@@ -52,4 +49,10 @@ char * longestCommonPrefix(char ** strs, int strsSize)
     return ans;
 }
 
-// @lc code=end
+int main()
+{
+    //char *strs[6] = {"flower","flow","flight"};
+    char *strs[7] = {"dog","racecar","car"};
+    printf("%s", longestCommonPrefix(strs, 3));
+    return 0;
+}
