@@ -6,6 +6,7 @@
 
 // @lc code=start
 
+
 char * longestCommonPrefix(char ** strs, int strsSize)
 {
     int i;  // counter
@@ -51,5 +52,6 @@ char * longestCommonPrefix(char ** strs, int strsSize)
     }
     return ans;
 }
+
 
 // @lc code=end

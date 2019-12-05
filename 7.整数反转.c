@@ -6,7 +6,6 @@
 
 // @lc code=start
 
-#include <math.h>
 
 int reverse(int x)
 {
