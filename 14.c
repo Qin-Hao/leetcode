@@ -13,9 +13,9 @@ char * longestCommonPrefix(char ** strs, int strsSize)
         }
     }
 
-    int minLength = strlen(strs[0]);// ¼Ù¶¨µÚÒ»¸ö×Ö·û´®³¤¶È×î¶Ì
+    int minLength = strlen(strs[0]);// å‡å®šç¬¬ä¸€ä¸ªå­—ç¬¦ä¸²é•¿åº¦æœ€çŸ­
 
-    for (i = 1; i < strsSize; ++i)// Ñ°ÕÒ×î¶Ì×Ö·û´®³¤¶È
+    for (i = 1; i < strsSize; ++i)// å¯»æ‰¾æœ€çŸ­å­—ç¬¦ä¸²é•¿åº¦
     {
         if (strlen(strs[i]) < minLength)
         {
