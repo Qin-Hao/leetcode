@@ -15,6 +15,10 @@ public:
     // 暴力枚举
     // 时间复杂度 O(n^2)
     // 空间复杂度 O(1)
+    // Accepted
+    // 52/52 cases passed (8 ms)
+    // Your runtime beats 98 % of cpp submissions
+    // Your memory usage beats 83.62 % of cpp submissions (9 MB)
     // vector<int> twoSum(vector<int>& nums, int target) 
     // {
     //     int len = nums.size();
@@ -34,6 +38,10 @@ public:
     // 哈希表
     // 时间复杂度 O(n)
     // 空间复杂度 O(n)
+    // Accepted
+    // 52/52 cases passed (8 ms)
+    // Your runtime beats 98 % of cpp submissions
+    // Your memory usage beats 49.01 % of cpp submissions (9.3 MB)
     vector<int> twoSum(vector<int>& nums, int target) 
     {
         unordered_map<int, int> hashtable; // unordered_map比map效率高，这里不需要排序

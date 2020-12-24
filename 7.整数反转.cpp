@@ -10,7 +10,11 @@ class Solution
 {
 public:
     // 时间复杂度：O(log(x))，x中大约有log_{10}(x)位数字。
-    // 空间复杂度：O(1)。
+    // 空间复杂度：O(1)
+    // Accepted
+    // 1032/1032 cases passed (4 ms)
+    // Your runtime beats 52.58 % of cpp submissions
+    // Your memory usage beats 39.52 % of cpp submissions (6.2 MB)
     int reverse(int x) 
     {
         int rev = 0;
