@@ -12,6 +12,8 @@ class Solution
 {
 public:
     // 暴力解法
+    // 时间复杂度 O(s_len)
+    /// 空间复杂度 O(1)
     // Accepted
     // 3999/3999 cases passed (24 ms)
     // Your runtime beats 54.5 % of cpp submissions
