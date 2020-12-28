@@ -19,21 +19,21 @@ public:
     // 52/52 cases passed (8 ms)
     // Your runtime beats 98 % of cpp submissions
     // Your memory usage beats 83.62 % of cpp submissions (9 MB)
-    // vector<int> twoSum(vector<int>& nums, int target) 
-    // {
-    //     int len = nums.size();
-    //     for (int i = 0; i < len; ++i)
-    //     {
-    //         for (int j = i + 1; j < len; ++j)
-    //         {
-    //             if (nums[i] + nums[j] == target)
-    //             {
-    //                 return vector<int>{i, j};
-    //             }
-    //         }
-    //     }
-    //     return vector<int>{};
-    // }
+    vector<int> twoSum(vector<int>& nums, int target) 
+    {
+        int len = nums.size();
+        for (int i = 0; i < len; ++i)
+        {
+            for (int j = i + 1; j < len; ++j)
+            {
+                if (nums[i] + nums[j] == target)
+                {
+                    return vector<int>{i, j};
+                }
+            }
+        }
+        return vector<int>{};
+    }
 
     // 哈希表
     // 时间复杂度 O(n)
