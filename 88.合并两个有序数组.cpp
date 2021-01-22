@@ -11,10 +11,6 @@ class Solution
 {
 public:
     // two pointers
-    // Accepted
-    // 59/59 cases passed (0 ms)
-    // Your runtime beats 100 % of cpp submissions
-    // Your memory usage beats 99.61 % of cpp submissions (8.6 MB)
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) 
     {
         int merged[m + n]; // result

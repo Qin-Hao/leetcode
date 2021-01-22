@@ -26,10 +26,6 @@ struct ListNode
 class Solution
 {
 public:
-    // Accepted
-    // 1568/1568 cases passed (56 ms)
-    // Your runtime beats 40.51 % of cpp submissions
-    // Your memory usage beats 93.37 % of cpp submissions (69.4 MB)
     ListNode *addTwoNumbers(ListNode *l1, ListNode *l2)
     {
         ListNode *root = new ListNode();

@@ -15,10 +15,6 @@ public:
     // 借助栈的解法
     // 时间复杂度 O(s_len)
     // 空间复杂度 O(s_len)
-    // Accepted
-    // 91/91 cases passed (0 ms)
-    // Your runtime beats 100 % of cpp submissions
-    // Your memory usage beats 5.15 % of cpp submissions (6.9 MB)
     bool isValid(string s) 
     {
         if (!s.size()) return true; // 空串，有效

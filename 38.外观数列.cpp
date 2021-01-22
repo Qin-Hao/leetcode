@@ -11,10 +11,6 @@ class Solution
 {
 public:
     // 朴素解法
-    // Accepted
-    // 30/30 cases passed (12 ms)
-    // Your runtime beats 44.81 % of cpp submissions
-    // Your memory usage beats 46.6 % of cpp submissions (6.9 MB)
     string countAndSay(int n) 
     {
         string say = "1";
@@ -40,10 +36,6 @@ public:
     }
 
     // 考虑到问题规模不是很大（1<=n<=30），可以打表
-    // Accepted
-    // 30/30 cases passed (0 ms)
-    // Your runtime beats 100 % of cpp submissions
-    // Your memory usage beats 62.51 % of cpp submissions (6.7 MB)
     string countAndSay(int n) 
     {
         static string arr[31] = {"",

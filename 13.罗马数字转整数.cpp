@@ -14,10 +14,6 @@ public:
     // 暴力解法
     // 时间复杂度 O(s_len)
     /// 空间复杂度 O(1)
-    // Accepted
-    // 3999/3999 cases passed (24 ms)
-    // Your runtime beats 54.5 % of cpp submissions
-    // Your memory usage beats 23.37 % of cpp submissions (8.6 MB)
     int romanToInt(string s) 
     {
         int rom = 0;

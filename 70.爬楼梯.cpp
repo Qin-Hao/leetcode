@@ -9,10 +9,6 @@ class Solution
 {
 public:
     // 动态规划
-    // Accepted
-    // 45/45 cases passed (0 ms)
-    // Your runtime beats 100 % of cpp submissions
-    // Your memory usage beats 98.11 % of cpp submissions (5.8 MB)
     int climbStairs(int n) 
     {
         int p = 0, q = 0, r = 1;

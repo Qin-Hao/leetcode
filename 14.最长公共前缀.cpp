@@ -14,10 +14,6 @@ public:
     // 纵向扫描
     // 时间复杂度 O(mn) 其中 m 是字符串数组中的字符串的平均长度，n 是字符串的数量。
     // 空间复杂度 O(1)
-    // Accepted
-    // 123/123 cases passed (4 ms)
-    // Your runtime beats 92.96 % of cpp submissions
-    // Your memory usage beats 46.38 % of cpp submissions (9.4 MB)
     string longestCommonPrefix(vector<string>& strs) 
     {
         string comm = "";

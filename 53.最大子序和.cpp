@@ -34,10 +34,6 @@ public:
     // 动态规划
     // 时间复杂度：O(n)，其中 n为 nums 数组的长度。我们只需要遍历一遍数组即可求得答案。
     // 空间复杂度：O(1)。我们只需要常数空间存放若干变量。
-    // Accepted
-    // 202/202 cases passed (12 ms)
-    // Your runtime beats 89.22 % of cpp submissions
-    // Your memory usage beats 41.35 % of cpp submissions (13.3 MB)
     int maxSubArray(vector<int>& nums) 
     {
         int pre = 0, maxAns = nums[0];

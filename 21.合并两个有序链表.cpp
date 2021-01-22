@@ -29,10 +29,6 @@ public:
     };
     // 时间复杂度 O(m) m是两个链表中较短的那个的长度
     // 空间复杂度 O(1)
-    // Accepted
-    // 208/208 cases passed (8 ms)
-    // Your runtime beats 94.22 % of cpp submissions
-    // Your memory usage beats 29.49 % of cpp submissions (14.9 MB)
     ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) 
     {
         // 特殊情况
