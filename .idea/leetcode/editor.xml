@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[5]最长回文子串.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[5]最长回文子串.cpp" />
+              <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/[8]字符串转换整数 (atoi).cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/[8]字符串转换整数 (atoi).cpp" />
+              <option name="questionId" value="8" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/leetcode/editor/cn/[5]最长回文子串.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/leetcode/editor/cn/[5]最长回文子串.cpp" />
+              <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/tmp/leetcode/editor/cn/[5]最长回文子串.cpp">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/tmp/leetcode/editor/cn/[5]最长回文子串.cpp" />
+              <option name="questionId" value="5" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
