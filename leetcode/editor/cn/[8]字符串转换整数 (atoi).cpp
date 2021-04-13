@@ -112,10 +112,63 @@
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class Solution
+{
 public:
-    int myAtoi(string s) {
-
+    int myAtoi(string s)
+    {
+        long long ans = 0;
+        bool symbol = false;
+        // 丢弃前导空格
+        int i = 0;
+        while (s[i] == ' ')
+        {
+            ++i;
+        }
+        // 读取符号
+        if (s[i] == '-')
+        {
+            symbol = !symbol;
+            ++i;
+        }
+        else if (s[i] == '+')
+        {
+            ++i;
+        }
+        // 读取数字
+        while (i < s.size())
+        {
+            // 读取数字
+            if (s[i] >= '0' && s[i] <= '9')
+            {
+                // 判断数字是否在要求范围内
+                if (!symbol)
+                {
+                    ans = ans * 10 + (s[i] - '0');
+                    if (ans > INT_MAX)
+                    {
+                        ans = INT_MAX;
+                        break;
+                    }
+                }
+                else
+                {
+                    ans = ans * 10 + ('0' - s[i]);
+                    if (ans < INT_MIN)
+                    {
+                        ans = INT_MIN;
+                        break;
+                    }
+                }
+                ++i;
+            }
+            else // 非数字，字母或空格
+            {
+                break;
+            }
+        }
+        // 返回结果
+        return ans;
     }
 };
 //leetcode submit region end(Prohibit modification and deletion)
